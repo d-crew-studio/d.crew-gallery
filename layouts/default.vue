@@ -4,8 +4,11 @@
 
 <template>
   <div>
-    <main class="mx-auto">
+    <AppHeader />
+    <main class="relative min-h-screen">
       <slot />
     </main>
+    <AppFooter />
+    <AppBottomBlur />
   </div>
 </template>

@@ -2,16 +2,34 @@
 
 body,
 html {
-  @apply font-sans;
+  @apply font-sans bg-primary text-secondary leading-[1];
+}
+
+.container {
+  @apply max-w-screen-2xl mx-auto px-4 lg:px-8 relative z-2;
 }
 
 @theme {
   --font-sans: "Neue Montreal", sans-serif;
+
+  /* Colors */
+  --color-primary: #0c0d0e;
+  --color-secondary: #F0F0F0;
+  --color-tertiary: #F4EFE6;
+  --color-accent: #ff740f;
+  --color-neutral-gray: #F3F3F3;
+  --color-mid-gray: #949494;
+  --color-beige: #F4EFE6;
+  --color-dark-gray: #232323;
+
+
+  /* Font Sizes */
+  --base-size: 0.25rem;
 }
 
 @layer components {
-  .h1 {
-    @apply text-4xl font-light text-red-500;
+  .heading {
+    @apply text-[40px] md:text-[80px] lg:text-[100px] font-medium;
   }
 }
 

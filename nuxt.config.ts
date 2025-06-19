@@ -10,10 +10,20 @@ export default defineNuxtConfig({
     ],
   },
   css: ['~/assets/css/main.css'],
-  modules: [
-    'nuxt-lenis',
-  ],
+  modules: ['nuxt-lenis', '@nuxt/image', '@nuxt/icon'],
   plugins: [
     '~/plugins/gsap.ts'
   ],
+  image: {
+    dir: 'assets/images/'
+  },
+  icon: {
+    mode: "svg",
+    customCollections: [
+      {
+        prefix: "deeple",
+        dir: "./assets/icons",
+      },
+    ],
+  },
 })
