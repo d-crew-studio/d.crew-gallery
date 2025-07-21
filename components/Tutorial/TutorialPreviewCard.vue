@@ -16,7 +16,7 @@
     <AppPreviewVideo />
     
     <div>
-      <p>
+      <p class="text-[16px] my-5 leading-[1.25]">
         Big news: GSAP plugins are now free! To celebrate, here’s a demo that makes use of the InertiaPlugin. In this effect, images move when hovered. The hovered image shifts in the direction of the mouse movement, with an intensity based on the speed of that movement. Let’s begin!
       </p>
     </div>
