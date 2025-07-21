@@ -7,7 +7,7 @@
     <div class="container">
       <div class="flex justify-between items-center">
         <NuxtLink to="/">
-          <NuxtImg src="svg/logo-deeple.svg" alt="logo" class="w-10 mr-2" />
+          <NuxtImg src="svg/logo-dcrew.svg" alt="logo" class="w-10 mr-2" />
         </NuxtLink>
 
         <div class="flex items-center gap-4">

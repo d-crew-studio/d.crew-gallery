@@ -6,7 +6,7 @@
   <div class="w-full rounded-2xl bg-dark-gray p-5">
     <h1>
       <span>
-        Deeple
+        d.crew
       </span>
       <span>
         Some plugin

@@ -21,7 +21,7 @@ export default defineNuxtConfig({
     mode: "svg",
     customCollections: [
       {
-        prefix: "deeple",
+        prefix: "dcrew",
         dir: "./assets/icons",
       },
     ],

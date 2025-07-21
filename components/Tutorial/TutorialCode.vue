@@ -35,7 +35,7 @@
       class="bg-dark-gray h-10 w-10 flex items-center justify-center rounded-md absolute top-4 right-4 z-10" 
       @click="copyCode"
     >
-      <Icon name="deeple:copy" class="w-4 h-4" />
+      <Icon name="drew:copy" class="w-4 h-4" />
     </button>
     <pre class="relative">
       <code 
